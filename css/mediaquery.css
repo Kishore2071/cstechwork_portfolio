@@ -1,0 +1,24 @@
+@media (min-width:1025px) and (max-width:1440px){
+    .abtimg img{
+        height: 350px;
+        width: 350px;
+    }
+    .abt h1{
+        font-size: 10px;
+    }
+    .abt .name{
+        font-size: 10px;
+    }
+    .abt .abtp{
+        font-size: 5px;
+    }
+    .abt{
+        padding: 0;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 150px;
+        height: 550px;
+        width: 900px;
+    }
+}
+

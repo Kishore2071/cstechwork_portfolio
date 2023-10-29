@@ -1,0 +1,186 @@
+.navbg{
+    height: 80px;
+}
+
+ul li{
+    float: right;
+    padding: 10px 30px;
+}
+
+ul a{
+    text-decoration: none;
+    display: inline-block;
+    color: #e1e0e0;
+}
+
+ul a:hover,ul li:hover{
+    color: white;
+}
+
+.divbg{
+    height: 625.094px;
+    width: 100%;
+    position: absolute;
+    background: url("/images/bg.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.opacityedit{
+    background-color: #000;
+    height: 625.094px;
+    opacity: .25;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.hedit{
+    position: relative;
+    z-index: 3;
+    color: white;
+    font-family: Avenir;
+    font-size: 50px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.29;
+    text-align: center;
+    height: 625.094px;
+    background: none;
+    margin-bottom: 0;
+    padding-top: 7.5%;
+}
+
+.hmbtn{
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: #EDEDED;
+    text-align: center;
+    color: black;
+    font-family: ProximaNova;
+    padding: 10px;
+    text-align: center;
+    z-index: 3;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.hmbtn:hover, .hmbtn:active{
+    text-decoration: none;
+    background-color: #f6f4f4;
+    color: black;
+}
+
+
+.content{
+    margin: 250px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.content h1{
+    font-family: Avenir;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.abt{
+    height: 670px;
+    position: absolute;
+    width: 1000px;
+    padding-top:135px;
+    padding-left: 150px;
+    padding-right: 350px;
+}
+.name{
+    font-size: 35px; font-weight: 555;
+}
+
+.abtimg{
+    margin-left: 730px;
+    margin-top: 80px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+        
+}
+.abtp{
+    font-family: ProximaNova;
+    font-size: 20px; 
+    line-height: 1.56;
+}
+.cardbtn{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.cardbtn:hover{
+    border: 5px solid black;
+}
+
+.plxbtn{
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    background-color: #343A40;
+    text-decoration: none;
+    display: inline-block;
+    color: #e1e0e0;
+    font-family: ProximaNova;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid #e1e0e0;
+    margin-top: 30px;
+}
+
+.plxbtn:hover, .plxbtn:active{
+    text-decoration: none;
+    background-color: #BABABA;
+    color: black;
+}
+
+.plxtxt{
+    font-family: Avenir;
+    font-size: 50px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.29;
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+footer{
+    font-family: Avenir;
+    height: 70px;
+    padding: 20px 50px;
+    background-color:rgb(237,237,237);
+}
+
+footer a:hover{
+    color: blue;
+}
+
+.right{
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.right a{
+    font-family: Avenir;
+    color: #343A40;
+    text-decoration: none;
+}
+
+.right a:hover{
+    color: #000;
+}
